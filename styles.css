@@ -4,12 +4,12 @@ body {
   padding-top: 5em;
   display: flex;
   justify-content: center;
+  font-family: 'Audiowide', sans-serif;
 }
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #fff;
-  font-family: 'Audiowide', sans-serif;
   font-size: 80px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -36,6 +36,14 @@ body {
 #front-text {
   font-size: 30px;
   color: white;
-  font-family: 'Audiowide', sans-serif;
   margin-top: 30px;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.audiowide {
+  font-family: 'Audiowide', sans-serif;
+}
+
+#title-sep {
+  height: 10px;
 }
