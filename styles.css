@@ -47,3 +47,15 @@ body {
 #title-sep {
   height: 10px;
 }
+
+#location:hover {
+  font-weight: bold;
+  font-size: 31px;
+  text-decoration: underline;
+}
+
+#location {
+  transition: 0.3s all;
+  color: white;
+  text-decoration: none;
+}
