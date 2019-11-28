@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #333;
   padding-top: 5em;
@@ -12,7 +16,7 @@ body {
   color: #fff;
   font-size: 80px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  /*border-right: .15em solid orange; The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .1em; /* Adjust as needed */
@@ -30,7 +34,7 @@ body {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(131, 175, 80) }
+  50% { border-color: #46b6f2 }
 }
 
 #front-text {
@@ -58,4 +62,41 @@ body {
   transition: 0.3s all;
   color: white;
   text-decoration: none;
+}
+
+#header-space {
+  display: none;
+}
+
+#arrow-btn {
+  font-size: 20px;
+  bottom: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -70px;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+
+#arrow-btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1050px) {
+  #header-space {
+    display: block;
+  }
+}
+
+#second-section {
+  width: 70%;
+  min-width: 300px;
+}
+
+#second-section > p {
+  color: white;
+  font-size: 40px;
+  line-height: 1.2;
 }
