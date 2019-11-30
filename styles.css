@@ -108,3 +108,35 @@ body {
   font-weight: bold;
   font-family: 'Audiowide', sans-serif;
 }
+
+#third-section {
+  width: 100%;
+  height: 100vh;
+  min-width: 300px;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+#schedule-times > p {
+  font-size: 40px;
+}
+
+#schedule-content > p {
+  font-size: 40px;
+}
