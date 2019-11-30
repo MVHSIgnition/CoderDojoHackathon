@@ -68,11 +68,10 @@ body {
   display: none;
 }
 
-#arrow-btn {
+.arrow-btn {
   font-size: 20px;
   bottom: 10px;
   position: absolute;
-  bottom: 10px;
   left: 50%;
   margin-left: -70px;
   text-align: center;
@@ -80,7 +79,7 @@ body {
   text-decoration: none;
 }
 
-#arrow-btn:hover {
+.arrow-btn:hover {
   cursor: pointer;
 }
 
@@ -91,12 +90,21 @@ body {
 }
 
 #second-section {
-  width: 70%;
+  width: 100%;
   min-width: 300px;
+  text-align: center;
+  color: white;
+  position: relative;
 }
 
 #second-section > p {
-  color: white;
   font-size: 40px;
   line-height: 1.2;
+}
+
+#second-section > h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: 'Audiowide', sans-serif;
 }
